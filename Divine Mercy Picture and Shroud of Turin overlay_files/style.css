@@ -1,0 +1,55 @@
+.vertical-align{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.image img{
+	max-height: 90vh;
+	width: auto;
+}
+.image figcaption{
+	padding-top: 0.5em;
+	display: table-caption;
+	caption-side: bottom;
+	text-align: center;
+}
+.column figure{
+	display: table;
+}
+.overlay{
+	position: relative;
+	height: 90vh;
+}
+.overlay img{
+	position: absolute;
+}
+.dmpn{
+	z-index: 2;
+}
+.srt{
+	z-index: 3;
+	opacity: 0;
+}
+form .controls{
+	display: table-cell;
+	vertical-align: middle;
+	padding-bottom: 1em;
+}
+form .controls > *{
+	vertical-align: middle;
+}
+.lang-links{
+	text-align: right;
+	margin-top: -2em;
+}
+.lang-links img{
+	height: 2em;
+	width: auto;
+}
+
+/* #image-container {
+	box-shadow: 25px 25px 50px 0 #1b1c1d inset, -25px -25px 50px 0 #1b1c1d inset; 
+	width: 300px;
+	height: 300px;
+	}
+	 */
