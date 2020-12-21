@@ -85,35 +85,42 @@ crossorigin="anonymous"></script>
           </div>
       </div>
   </section>
+
   <div class="d-flex p-5 padding-box"></div>
-  <section>
-      <div class="ui text container centered text-center">
-          <h3 class="ui header">
-            How the Divine Mercy painting and the Shroud of Turin converge
-          </h3>
-          <p>(Scroll down to find out more about these two images)</p>
-          <p>Use the slider below</p>
-      </div>
-  </section> 
+
+  <div class="row d-flex justify-content-center">
+    <div id="rcorners" class="p-4 mb-5 ml-4 mr-4" style="width: 50rem; height: 830px">
+      <div class="d-flex p-1 padding-box"></div>
+      <section>
+          <div class="ui text container centered text-center">
+              <h3 class="ui header">
+                How the Divine Mercy painting and the Shroud of Turin converge
+              </h3>
+              <p class="p-4">(Scroll down to find out more about these two images)</p>
+              <!-- <p>Use the slider below</p> -->
+          </div>
+      </section> 
+          <div class="ui container centered justify-content-center">
+              <section class="section">
+                      <div class="controls">
+                          <label for="opacity-slider">Opacity</label>
+                          <input type="range" name="opacity" min="0" max="1" step="0.01" value="0s" id="opacity-slider">
+                          <output for="opacity-slider" id="opacity-value">0</output>
+                      </div>
+                  </form>
+          
+                  <figure class="image overlay">
+                      <img id="image-overlay" src="Divine%20Mercy%20Picture%20and%20Shroud%20of%20Turin%20overlay_files/Kazimirowski_Eugeniusz_Divine_Mercy_1934_pos.jpg" class="dmpn">
+                      <img id="image-overlay" src="Divine%20Mercy%20Picture%20and%20Shroud%20of%20Turin%20overlay_files/Full_length_negatives_of_the_shroud_of_Turin_pos.jpg" class="srt" style="opacity: 0;">
+                  </figure>
+          
+              </section>
+          </div>
+    </div> 
+  </div>
 
 
-
-      <div class="ui container centered justify-content-center">
-          <section class="section">
-                  <div class="controls">
-                      <label for="opacity-slider">Opacity</label>
-                      <input type="range" name="opacity" min="0" max="1" step="0.01" value="0s" id="opacity-slider">
-                      <output for="opacity-slider" id="opacity-value">0</output>
-                  </div>
-              </form>
-      
-              <figure class="image overlay">
-                  <img id="image-overlay" src="Divine%20Mercy%20Picture%20and%20Shroud%20of%20Turin%20overlay_files/Kazimirowski_Eugeniusz_Divine_Mercy_1934_pos.jpg" class="dmpn">
-                  <img id="image-overlay" src="Divine%20Mercy%20Picture%20and%20Shroud%20of%20Turin%20overlay_files/Full_length_negatives_of_the_shroud_of_Turin_pos.jpg" class="srt" style="opacity: 0;">
-              </figure>
-      
-          </section>
-      </div>
+  
 
       <div class="d-flex p-4 padding-box"></div>        
 
